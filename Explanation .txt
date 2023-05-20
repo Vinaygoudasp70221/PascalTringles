@@ -1,0 +1,17 @@
+Hi every one i am vinaygouda s p i have done program on pascal triangle for three senario 1) Normal iterater
+															2) Recurstion method
+															3) Memoziation 
+
+let us go one by one
+1) Normal iterater
+	i will explain about logic part i have writen login useing 2 for loop and outer for loop will itrates eachrows in this first we will initialize number with 1 and print spaces between numbers and next inner for loop iterates upto the ith value first we will print the curent value of number and update number useing formula "number = number * (i - j) / (j + 1)" first formula it will substract i from j and then divide by (j+1) and then it will multifly to current value of number and it continue until j is<= i and exits inner loop and i get increments it will continue untill i is <= numrows
+
+2) Recurstion method
+	it means calling function repeatedly in onther function to solve problems
+	i will explain about logic part first main method call "printPascalTriangle(numRows)" by passing numrows in this printPascalTriangle(numRows) method useing two loops for geting values for column and row these value is used to pass for the method called pascalvalue in this method first it will check if col == 0 or col== row it will return 1 else return pascalValue(row-1,col-1) + pascalValue(row-1,col); by useing value we print the pascale triangle
+
+3) Memoziation
+	it means in your problem if ur repetadly calculating values and  store it in variable we can use 2Darray or map i use map for storeing values and call method calculateCoefficient by passing values into row and column in this method we check if col==0 or row==col return 1 and check first if values are present in map if present return value with key else calculate value by useing recurstion function and store it into a variable called coefficent and insert value of coefficient and return it and by useing value we print values it will run untill the numrows
+
+i thin your reading this.
+lastly i am very inspired by u and your amazing teacher and i will learn lot off thing like java other than of it if i get chance to meet u it is memorable day for me. i think i will get chance (by wining only or by casualy) can i get chance to met u sir
